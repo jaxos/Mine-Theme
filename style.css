@@ -1,0 +1,129 @@
+body { 
+	text-align: center; 
+    background: #999966; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#999966, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#999966, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#999966, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#999966, #fff); /* Standard syntax */
+}
+#wrapper { 
+	display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto; 
+	/* Adding backgound gradient with opacity 0.3 */
+	background-color: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.3);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; 
+	}
+
+#logo { margin: 20px; float: left; }
+#desc { margin: 10px 10px;float: left; } 	
+#navmenu{ clear: both;}
+#main{clear:both}
+#content {width: 72%;  float: right; padding-left:30px; padding-right:30px;} /* Change of % width because of paddings */
+#sidebar { width: 15%;  float: left; text-align: left; margin-left: 30px; padding-right:30px;}
+#delimiter { clear: both; }
+#footer {  }
+
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+.post{
+	width: 80%;
+	
+	background-color: rgba(0, 153, 51, 0.3);
+    
+    
+    text-align: center; 
+	border-left: 8px solid #003300;
+    text-decoration: none;
+    display: inline-block;
+	margin-bottom:20px;
+}
+
+/******* OGARNIJ LINKI WE WPISACH!!!!*****/
+
+a:link, a:visited{ color: #003300; text-decoration: none; }
+
+a:hover, a:active{ text-decoration:none; color: #009933; }
+
+
+
+/***************** Navbar Styling *******************/
+
+
+
+
+ /*header a style*/ 
+
+ #navmenu a:link, #navmenu a:visited{
+	background-color: #009933;
+    color: white;
+    padding: 5px 5px;
+	margin: 1px 1px;
+    text-align: center; 
+	border: 2px solid #003300;
+    text-decoration: none;
+    display: inline-block;
+ }
+ 
+ #navmenu a:hover, #navmenu a:active{
+	background-color: #fff;
+    color: #009933;
+    padding: 5px 5px;
+	margin: 1px 1px;
+    text-align: center; 
+	border: 2px solid #003300;
+    text-decoration: none;
+    display: inline-block; 
+ } 
+
+ 
+
+ 
+/***************** Sidebar Styling *******************/
+
+#sidebar a{
+	text-align: left;
+}
+#sidebarmenu a{
+	
+	
+}
+
+#sidebarmenu a:link, #sidebarmenu a:visited{
+    text-decoration: none;
+	color: #003300;
+    
+	border-left: 4px solid #003300;
+    
+    
+}
+
+#sidebarmenu a:hover, #sidebarmenu a:active{
+	text-decoration:none;
+	color: #009933;
+	
+}
+
+
+
+#sidebarmenu ul { margin: 0; padding: 0; list-style-type: none; list-style-image: none; }
+
+
+
+/* style of the post title*/
+
+h1 a:link, h1 a:visited {
+    background-color: #009933;
+    color: white;
+    padding: 5px 25px;
+    text-align: center; 
+	border-left: 8px solid #003300;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#navmenu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline;  padding-left:2px;padding-right:2px;}
+
+/***************** Links  *******************/
